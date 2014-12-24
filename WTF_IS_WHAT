@@ -1,0 +1,11 @@
+Gem environment:
+Gemfile
+Gemfile.lock
+
+curate-startups.rb   - Downloads trending startups from angel.co
+targets              - The startup list to use
+gen.rb               - Generates a tweet, but doesn't post it
+pick-target.rb       - Selects a target from targets; also rotates targets
+pick-word.rb         - Chooses a word for the "but for [X]" comparison
+tweet.rb             - Runs gen.rb and tweets it
+twitter_config.yml   - Twitter API config
